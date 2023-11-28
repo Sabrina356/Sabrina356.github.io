@@ -15,7 +15,7 @@ function criarCabecalhos(cabecalhos){
     var divLogo= document.createElement('divLogo');
     divLogo.innerHTML='<a href="index.html">Create.com</a>';
     var ul=document.createElement('ul');
-    ul.innerHTML='<li><a href="index.html">Home</a></li> <li><a href="serviços.html">Serviços</a></li> <li><a href="Loguin.html">Login</a></li> <li><a href="sobre.html">Sobre</a></li> <li><a href="contato.html">Contato</a> <li><a href="Atividade.html">Menu Atividade</a></li></li>';
+    ul.innerHTML='<li><a href="index.html">Home</a></li> <li><a href="serviços.html">Serviços</a></li> <li><a href="Loguin.html">Login</a></li> <li><a href="sobre.html">Sobre</a></li> <li><a href="contato.html">Contato</a> <li><a href="MenuAtividade.html">Menu Atividade</a></li></li>';
     var divMenu=document.createElement('divMenu');
     divMenu.innerHTML='<img src="imagens/menu.png">';
     nav.classList.add('cabecalho');
